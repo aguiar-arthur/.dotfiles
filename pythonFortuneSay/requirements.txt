@@ -1,0 +1,3 @@
+cowsay==6.1
+fortune==1.1.1
+grizzled-python==2.2.0
