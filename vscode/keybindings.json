@@ -89,5 +89,10 @@
     {
         "key": "space p",
         "command": "editor.action.clipboardPasteAction"
+    }, 
+    {
+        "key": "space f",
+        "command": "editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
     }
   ]
