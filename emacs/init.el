@@ -165,6 +165,7 @@
 
 ;; C-x g to access
 ;; ?(Question) sign to access magit menu
+;; C-c to actions
 (use-package magit
   :commands (magit-status magit-get-current-branch)
   :custom
